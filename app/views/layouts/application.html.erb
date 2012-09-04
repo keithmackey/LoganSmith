@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logan Smith Plumbing</title>
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+
+<div id="logo">
+<img src="/images/new-logo.png">
+</div>
+<div id="menu">
+<div id="menucontent">
+<ul class="arrowunderline">
+<li><a href="/residential.html">Residential</a></li>
+<li><img src ="/images/menu-bar.jpg"></li>
+<li><a href="/commercial.html">Commercial</a></li>
+<li><img src ="/images/menu-bar.jpg"></li>
+<li class="selected"><a href="/restorations.html">Restorations</a></li>
+<li><img src ="/images/menu-bar.jpg"></li>
+<li><a href="/about.html">About Us</a></li>
+	
+</ul>
+</div>
+</div>
+<div id="address">
+	1312 East 36th Place  Tulsa, OK 74105 - (918) 747-5684
+	</div>
+	
+<%= yield %>
+
+</body>
+</html>

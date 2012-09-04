@@ -1,0 +1,72 @@
+#menu{
+		float:center ;
+        margin: 0px 0px;
+        padding: 0px; /* Set margin and padding for cross browser consistency. */
+        text-align: center; /* Needed for IE5/Win */
+        }
+	
+#menucontent{
+		background-image:url(/images/menu-background.jpg);
+		background-size:100%;
+		background-repeat: repeat-y;
+        width: 100%;
+		height: 28px;
+        margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+        text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+        padding: 15px;
+        border: 2px solid #686868;
+       
+        }
+ul.arrowunderline{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		text-align:center; /* enter "left", "right", or "center" to orient the menu accordingly */
+		font: bold 22px Lucida;
+		color: white;
+}
+
+ul.arrowunderline li{
+		display:inline;
+		margin-right:12px; /* spacing between each menu item */
+}
+
+ul.arrowunderline li a{
+		position:relative;
+		color:white;
+		padding-bottom:4px; /*spacing between each menu item and arrow underline beneath it */
+		text-decoration:none;
+
+}
+
+ul.arrowunderline li a:hover{
+		border-bottom:3px solid #006bef; /* style of arrow underline */
+}
+
+ul.arrowunderline li a:hover:after{ /* use CSS generated content to add arrow to the menu */
+		content:'';
+		width:0;
+		height:0;
+		position:absolute;
+		left:50%;
+		margin-left:-5px; /* value should match border-width below */
+		bottom: 0;
+		border-width:5px; /* value should match margin-left above */
+		border-style:solid;
+		border-color: transparent transparent #006bef transparent; /* create up arrow */
+}
+
+#logo{
+	float : left;
+	padding:5px;
+	width: 100%;
+	height: 14px;
+}
+
+#address{
+	float: center;
+	font: bold 14px Lucida;
+	color: #436af6;
+	text-align: center;
+	padding: ;
+}

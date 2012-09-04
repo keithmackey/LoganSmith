@@ -1,0 +1,73 @@
+
+#body {
+	
+		float:center ;
+        margin: 150px 0px;
+        padding: 0px; /* Set margin and padding for cross browser consistency. */
+        text-align: center; /* Needed for IE5/Win */
+        }
+        
+#maincontent {
+		background-image:url(/images/body-background.jpg);
+		background-size:100%;
+		background-repeat:no-repeat;
+        width: 900px;
+		height: 400px;
+        margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+        text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+        padding: 15px;
+        border: 2px solid #686868;
+        background-color: #eee;
+        }
+#residentialcontent {
+		background-image:url(/images/residential-background.jpg);
+		background-size:100%;
+		background-repeat:no-repeat;
+        width: 900px;
+		height: 400px;
+        margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+        text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+        padding: 15px;
+        border: 2px solid #686868;
+        background-color: #eee;
+        }
+#commercialcontent {
+		background-image:url(/images/commercial-background.jpg);
+		background-size:100%;
+		background-repeat:no-repeat;
+        width: 900px;
+		height: 400px;
+        margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+        text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+        padding: 15px;
+        border: 2px solid #686868;
+        background-color: #eee;
+        }
+#restorationscontent {
+		background-image:url(/images/restorations-background.jpg);
+		background-size:100%;
+		background-repeat:no-repeat;
+        width: 900px;
+		height: 400px;
+        margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+        text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+        padding: 15px;
+        border: 2px solid #686868;
+        background-color: #eee;
+        }
+#aboutcontent {
+		background-image:url(/images/about-background.jpg);
+		background-size:100%;
+		background-repeat:no-repeat;
+        width: 900px;
+		height: 400px;
+        margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+        text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+        padding: 15px;
+        border: 2px solid #686868;
+        background-color: #eee;
+        }
+
+
+	
+
